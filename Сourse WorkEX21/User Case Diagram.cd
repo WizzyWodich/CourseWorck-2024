@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Сourse_WorkEX21.SupportingFiles.MessageFromEmail">
+    <Position X="0.5" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAIACAAAAAAAAIAAAAIAAAAAABAAAAA=</HashCode>
+      <FileName>SupportingFiles\MessageFromEmail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Сourse_WorkEX21.SupportingFiles.Database">
+    <Position X="9" Y="6.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>EAIIAQAAAAAAAAAAAAABAAAAAIIQAAgAAAEAAAAAAAA=</HashCode>
+      <FileName>SupportingFiles\Database.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Сourse_WorkEX21.SupportingFiles.Methods.ImageUploader">
+    <Position X="3" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SupportingFiles\Methods\UploadImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Сourse_WorkEX21.SupportingFiles.Methods.Registration">
+    <Position X="13" Y="6.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAEACAAAEBAAAAAYAgACAAAAEACEAAQAAAACAA=</HashCode>
+      <FileName>SupportingFiles\Methods\Registration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Сourse_WorkEX21.SupportingFiles.Methods.PersonalData">
+    <Position X="4.75" Y="12.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAkQECGAAAABAAAgAAACAAAgAAAICqAIQAECAAgg=</HashCode>
+      <FileName>SupportingFiles\PersonalData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Database" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Сourse_WorkEX21.SupportingFiles.Checks.BaseValidation">
+    <Position X="13.75" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SupportingFiles\Checks\BaseValidation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Сourse_WorkEX21.SupportingFiles.Checks.CheakConfirmEmail">
+    <Position X="17.25" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAACAAgAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>SupportingFiles\Checks\CheakConfirmEmail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Сourse_WorkEX21.SupportingFiles.Checks.GeneralVerificationClass">
+    <Position X="17.75" Y="10.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAACAAAABAAAACIBAAAAAAAAACAAAQAAAAAkA=</HashCode>
+      <FileName>SupportingFiles\Checks\GeneralVerificationClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Сourse_WorkEX21.SupportingFiles.Checks.ValidationLogin">
+    <Position X="12.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SupportingFiles\Checks\ValidationLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ValidationPassword">
+    <Position X="14.75" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SupportingFiles\Checks\ValidationPassword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Сourse_WorkEX21.AllForms.InfoForm" Collapsed="true">
+    <Position X="22.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAQRACAAgBAIABCiAAMCAAACQQAAAAAgAAAIDAA=</HashCode>
+      <FileName>AllForms\RegistAndLogin\InfoRegistration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Сourse_WorkEX21.AllForms.LoginForm">
+    <Position X="13.25" Y="12.5" Width="3.5" />
+    <Members>
+      <Field Name="btCloseLoginForm" Hidden="true" />
+      <Field Name="btInputLoginForm" Hidden="true" />
+      <Field Name="btMinimize" Hidden="true" />
+      <Field Name="cbShowPassLoginForm" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="gbLoginForm" Hidden="true" />
+      <Field Name="guna2BorderlessForm1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="lbLoginForm" Hidden="true" />
+      <Field Name="lbNameApp" Hidden="true" />
+      <Field Name="lbRegistrationNewUser" Hidden="true" />
+      <Field Name="lbResetPassword" Hidden="true" />
+      <Field Name="PassIconLoginForm" Hidden="true" />
+      <Field Name="pbIconAppLF" Hidden="true" />
+      <Field Name="pnTopLoginForm" Hidden="true" />
+      <Field Name="tbLoginUserForm" Hidden="true" />
+      <Field Name="tbPasswordLoginForm" Hidden="true" />
+      <Field Name="UserIconLoginForm" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QgAAMggUQKAIgAJYIICiAQACIgwAAUAAAAARAQIIDAA=</HashCode>
+      <FileName>AllForms\RegistAndLogin\LoginForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Сourse_WorkEX21.AllForms.RegistationForm">
+    <Position X="18" Y="15" Width="3.5" />
+    <Members>
+      <Field Name="btCheckCode" Hidden="true" />
+      <Field Name="btCloseregistrationForm" Hidden="true" />
+      <Field Name="btEnterCodeAuntificationEmail" Hidden="true" />
+      <Field Name="btMinimizeRegistrationForm" Hidden="true" />
+      <Field Name="btRegistRegistrationForm" Hidden="true" />
+      <Field Name="cbShowPassLoginForm" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="EmailIconRegistrationForm" Hidden="true" />
+      <Field Name="gbRegistrationForm" Hidden="true" />
+      <Field Name="guna2BorderlessForm1" Hidden="true" />
+      <Field Name="ibInfoRegistForm" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="lbLoginFormRegistrationForm" Hidden="true" />
+      <Field Name="lbNameApp" Hidden="true" />
+      <Field Name="lbRegistrationForm" Hidden="true" />
+      <Field Name="notifyIcon1" Hidden="true" />
+      <Field Name="PassIconRegistrationForm" Hidden="true" />
+      <Field Name="pbIconAppRG" Hidden="true" />
+      <Field Name="PhoneNumberIconRegistrationForm" Hidden="true" />
+      <Field Name="pnTopLoginForm" Hidden="true" />
+      <Field Name="tbConfirmationEmailRegistrationForm" Hidden="true" />
+      <Field Name="tbConfirmationPasswordRegistrationForm" Hidden="true" />
+      <Field Name="tbEmailRegistrationForm" Hidden="true" />
+      <Field Name="tbLoginUserRegistrationForm" Hidden="true" />
+      <Field Name="tbPasswordregistrationForm" Hidden="true" />
+      <Field Name="tbPhoneNumberRegistrationForm" Hidden="true" />
+      <Field Name="UserIconRegistrationForm" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ACAQMABUACABAEZICASiYUBmAISIAkAAElAxASIYDEA=</HashCode>
+      <FileName>AllForms\RegistAndLogin\RegistationForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Сourse_WorkEX21.AllForms.ResetPassword">
+    <Position X="17.75" Y="0.75" Width="3.75" />
+    <Members>
+      <Field Name="btCloseResetPassForm" Hidden="true" />
+      <Field Name="btResetResetPassForm" Hidden="true" />
+      <Field Name="cbShowPassResetPassForm" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="EnterCodeReset" Hidden="true" />
+      <Field Name="gbResetPassForm" Hidden="true" />
+      <Field Name="guna2BorderlessForm1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="lbNameApp" Hidden="true" />
+      <Field Name="lbResetPassForm" Hidden="true" />
+      <Field Name="PassIconResetPassForm" Hidden="true" />
+      <Field Name="pbIconAppRP" Hidden="true" />
+      <Field Name="pnTopResetPassForm" Hidden="true" />
+      <Field Name="tbConfirmCodeResetPassForm" Hidden="true" />
+      <Field Name="tbConfirmPasswordResetPassForm" Hidden="true" />
+      <Field Name="tbEmailResetPassForm" Hidden="true" />
+      <Field Name="tbPasswordResetPassForm" Hidden="true" />
+      <Field Name="UserIconResetPassForm" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABAAICIAIigCABBAiRCAggACGAAAIVAAAQQAAAIIDEA=</HashCode>
+      <FileName>AllForms\RegistAndLogin\ResetPassword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Сourse_WorkEX21.AllForms.EditStatusOrder">
+    <Position X="4.5" Y="0.5" Width="3" />
+    <Members>
+      <Field Name="btClose" Hidden="true" />
+      <Field Name="btEdit" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="guna2BorderlessForm1" Hidden="true" />
+      <Field Name="guna2Panel1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="rbAcept" Hidden="true" />
+      <Field Name="rbDelivered" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAqAAABhwAACAAAACAAACBAoMAAAQAIAABAA=</HashCode>
+      <FileName>AllForms\EditStatusOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Сourse_WorkEX21.AllForms.Home">
+    <Position X="8" Y="12.5" Width="4" />
+    <Members>
+      <Field Name="btBuy" Hidden="true" />
+      <Field Name="btDeleteBasket" Hidden="true" />
+      <Field Name="btRefresh" Hidden="true" />
+      <Field Name="clbBasket" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="DataGridMain" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="gbMain" Hidden="true" />
+      <Field Name="guna2GroupBox1" Hidden="true" />
+      <Field Name="guna2GroupBox2" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CAAIAAAAACAA0IBAAACABAASAAAAgEEgIAAAAAAEAAg=</HashCode>
+      <FileName>AllForms\Home.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Сourse_WorkEX21.AllForms.Orders">
+    <Position X="8.5" Y="0.75" Width="2.75" />
+    <Members>
+      <Field Name="btDeleteOrder" Hidden="true" />
+      <Field Name="btEditOrderStatus" Hidden="true" />
+      <Field Name="btUpdateTableOrders" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="DataGridOrdersPanel" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="gbBasket" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="tbIdDeleteOrder" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIABAAABCAAAABAQACCAAACAGAAAAAECAAUAAAAAAE=</HashCode>
+      <FileName>AllForms\Orders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Сourse_WorkEX21.AllForms.SetingsForm">
+    <Position X="5.5" Y="5.25" Width="2.75" />
+    <Members>
+      <Field Name="btConfirmCode" Hidden="true" />
+      <Field Name="btImageSelect" Hidden="true" />
+      <Field Name="btSaveImage" Hidden="true" />
+      <Field Name="btSaveLogData" Hidden="true" />
+      <Field Name="btSavePersonalData" Hidden="true" />
+      <Field Name="cbShowPass" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="gbImageSF" Hidden="true" />
+      <Field Name="gbLogDataSF" Hidden="true" />
+      <Field Name="gbPersonalDataSF" Hidden="true" />
+      <Field Name="guna2GroupBox1" Hidden="true" />
+      <Field Name="guna2Panel1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="lbAdresSF" Hidden="true" />
+      <Field Name="lbCodeSF" Hidden="true" />
+      <Field Name="lbEmailSF" Hidden="true" />
+      <Field Name="lbLoginSF" Hidden="true" />
+      <Field Name="lbNameSF" Hidden="true" />
+      <Field Name="lbNumberPhoneSF" Hidden="true" />
+      <Field Name="lbPasswordSF" Hidden="true" />
+      <Field Name="lbSnameSF" Hidden="true" />
+      <Field Name="pbImageProfilSF" Hidden="true" />
+      <Field Name="tbAdresSF" Hidden="true" />
+      <Field Name="tbCodeSF" Hidden="true" />
+      <Field Name="tbEmailSF" Hidden="true" />
+      <Field Name="tbLoginSF" Hidden="true" />
+      <Field Name="tbNameSF" Hidden="true" />
+      <Field Name="tbNumberPhoneSF" Hidden="true" />
+      <Field Name="tbPasswordSF" Hidden="true" />
+      <Field Name="tbSnameSF" Hidden="true" />
+      <Field Name="tbStatusSF" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAmAAAljCyCSAFBACkCCMkAKYAoaoACSAQASEkDAAAA=</HashCode>
+      <FileName>AllForms\SetingsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Сourse_WorkEX21.GForm">
+    <Position X="1" Y="12.5" Width="2.75" />
+    <Members>
+      <Field Name="btCloseGForm" Hidden="true" />
+      <Field Name="btMinimizeGForm" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="guna2BorderlessForm1" Hidden="true" />
+      <Field Name="ibOrdersGF" Hidden="true" />
+      <Field Name="ibtExitGForm" Hidden="true" />
+      <Field Name="ibtHomeGForm" Hidden="true" />
+      <Field Name="ibtSettingsGForm" Hidden="true" />
+      <Field Name="idUser" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="lbNameApp" Hidden="true" />
+      <Field Name="pbIconAppGF" Hidden="true" />
+      <Field Name="pnBarGForm" Hidden="true" />
+      <Field Name="pnExitMain" Hidden="true" />
+      <Field Name="pnGForm" Hidden="true" />
+      <Field Name="pnHomeMain" Hidden="true" />
+      <Field Name="pnHomeSmallGF" Hidden="true" />
+      <Field Name="pnOrders" Hidden="true" />
+      <Field Name="pnOrdersSmalGF" Hidden="true" />
+      <Field Name="pnSettingsMain" Hidden="true" />
+      <Field Name="pnSettingsSmallGF" Hidden="true" />
+      <Field Name="pnTopGForm" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EGEAIAJwALQggDgIQBigJAADAAIAAACEAFCBBAYIZAg=</HashCode>
+      <FileName>AllForms\GForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

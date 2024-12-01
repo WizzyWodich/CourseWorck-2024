@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Сourse_WorkEX21.SupportingFiles.MessageFromEmail" Collapsed="true">
+    <Position X="6.5" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAIACAAAAAAAAIAAAAIAAAAAABAAAAA=</HashCode>
+      <FileName>SupportingFiles\MessageFromEmail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Сourse_WorkEX21.SupportingFiles.Database" Collapsed="true">
+    <Position X="4.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIIAQAAAAAAAAAAAAABAAAAAIIQAAgAAAEAAAAAAAA=</HashCode>
+      <FileName>SupportingFiles\Database.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Сourse_WorkEX21.SupportingFiles.Methods.ImageUploader" Collapsed="true">
+    <Position X="1.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAABAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SupportingFiles\Methods\UploadImage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Database" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Сourse_WorkEX21.SupportingFiles.Methods.Registration" Collapsed="true">
+    <Position X="4.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAEACAAAEBAAAAAYAgACAAIAFACEAAQAAAACAA=</HashCode>
+      <FileName>SupportingFiles\Methods\Registration.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="GeneralVerificationClass" />
+      <Property Name="ValidationLogin" />
+      <Property Name="ValidationPassword" />
+      <Property Name="CheakConfirmEmail" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Сourse_WorkEX21.SupportingFiles.Methods.PersonalData" Collapsed="true">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAkQECGAAAABAAAgAAACAAAgAAAICqAIQAECAAgg=</HashCode>
+      <FileName>SupportingFiles\PersonalData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Database" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Сourse_WorkEX21.SupportingFiles.Checks.BaseValidation" Collapsed="true">
+    <Position X="4.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SupportingFiles\Checks\BaseValidation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Сourse_WorkEX21.SupportingFiles.Checks.CheakConfirmEmail" Collapsed="true">
+    <Position X="4.5" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAACAAgAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>SupportingFiles\Checks\CheakConfirmEmail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Сourse_WorkEX21.SupportingFiles.Checks.GeneralVerificationClass" Collapsed="true">
+    <Position X="1.5" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAACAAAABAAAACIBAAAAAAAAACAAAQAAAAAkA=</HashCode>
+      <FileName>SupportingFiles\Checks\GeneralVerificationClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Сourse_WorkEX21.SupportingFiles.Checks.ValidationLogin" Collapsed="true">
+    <Position X="3.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SupportingFiles\Checks\ValidationLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ValidationPassword" Collapsed="true">
+    <Position X="5.5" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SupportingFiles\Checks\ValidationPassword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Сourse_WorkEX21.AllForms.InfoForm" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAQRACAAgBAIABCiAAMCAAACQQAAAAAgAAAIDAA=</HashCode>
+      <FileName>AllForms\RegistAndLogin\InfoRegistration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Сourse_WorkEX21.AllForms.LoginForm" Collapsed="true">
+    <Position X="1.5" Y="2.25" Width="1.5" />
+    <Members>
+      <Field Name="btCloseLoginForm" Hidden="true" />
+      <Field Name="btInputLoginForm" Hidden="true" />
+      <Field Name="btMinimize" Hidden="true" />
+      <Field Name="cbShowPassLoginForm" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="gbLoginForm" Hidden="true" />
+      <Field Name="guna2BorderlessForm1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="lbLoginForm" Hidden="true" />
+      <Field Name="lbNameApp" Hidden="true" />
+      <Field Name="lbRegistrationNewUser" Hidden="true" />
+      <Field Name="lbResetPassword" Hidden="true" />
+      <Field Name="PassIconLoginForm" Hidden="true" />
+      <Field Name="pbIconAppLF" Hidden="true" />
+      <Field Name="pnTopLoginForm" Hidden="true" />
+      <Field Name="tbLoginUserForm" Hidden="true" />
+      <Field Name="tbPasswordLoginForm" Hidden="true" />
+      <Field Name="UserIconLoginForm" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QgAAMggUQOAIgAJYIICiAQACIgwAAUAAAAARAQIIDAA=</HashCode>
+      <FileName>AllForms\RegistAndLogin\LoginForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Database1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Сourse_WorkEX21.AllForms.RegistationForm" Collapsed="true">
+    <Position X="1.75" Y="9.5" Width="1.5" />
+    <Members>
+      <Field Name="btCheckCode" Hidden="true" />
+      <Field Name="btCloseregistrationForm" Hidden="true" />
+      <Field Name="btEnterCodeAuntificationEmail" Hidden="true" />
+      <Field Name="btMinimizeRegistrationForm" Hidden="true" />
+      <Field Name="btRegistRegistrationForm" Hidden="true" />
+      <Field Name="cbShowPassLoginForm" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="EmailIconRegistrationForm" Hidden="true" />
+      <Field Name="gbRegistrationForm" Hidden="true" />
+      <Field Name="guna2BorderlessForm1" Hidden="true" />
+      <Field Name="ibInfoRegistForm" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="lbLoginFormRegistrationForm" Hidden="true" />
+      <Field Name="lbNameApp" Hidden="true" />
+      <Field Name="lbRegistrationForm" Hidden="true" />
+      <Field Name="notifyIcon1" Hidden="true" />
+      <Field Name="PassIconRegistrationForm" Hidden="true" />
+      <Field Name="pbIconAppRG" Hidden="true" />
+      <Field Name="PhoneNumberIconRegistrationForm" Hidden="true" />
+      <Field Name="pnTopLoginForm" Hidden="true" />
+      <Field Name="tbConfirmationEmailRegistrationForm" Hidden="true" />
+      <Field Name="tbConfirmationPasswordRegistrationForm" Hidden="true" />
+      <Field Name="tbEmailRegistrationForm" Hidden="true" />
+      <Field Name="tbLoginUserRegistrationForm" Hidden="true" />
+      <Field Name="tbPasswordregistrationForm" Hidden="true" />
+      <Field Name="tbPhoneNumberRegistrationForm" Hidden="true" />
+      <Field Name="UserIconRegistrationForm" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ACAQMABUACIBAEZICASiYUBmAISIAlAAElAxASIYDEA=</HashCode>
+      <FileName>AllForms\RegistAndLogin\RegistationForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MessageFromEmail" />
+      <Property Name="CheakConfirmEmail" />
+      <Property Name="GeneralVerificationClass" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Сourse_WorkEX21.AllForms.ResetPassword" Collapsed="true">
+    <Position X="6.5" Y="8.75" Width="1.5" />
+    <Members>
+      <Field Name="btCloseResetPassForm" Hidden="true" />
+      <Field Name="btResetResetPassForm" Hidden="true" />
+      <Field Name="cbShowPassResetPassForm" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="EnterCodeReset" Hidden="true" />
+      <Field Name="gbResetPassForm" Hidden="true" />
+      <Field Name="guna2BorderlessForm1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="lbNameApp" Hidden="true" />
+      <Field Name="lbResetPassForm" Hidden="true" />
+      <Field Name="PassIconResetPassForm" Hidden="true" />
+      <Field Name="pbIconAppRP" Hidden="true" />
+      <Field Name="pnTopResetPassForm" Hidden="true" />
+      <Field Name="tbConfirmCodeResetPassForm" Hidden="true" />
+      <Field Name="tbConfirmPasswordResetPassForm" Hidden="true" />
+      <Field Name="tbEmailResetPassForm" Hidden="true" />
+      <Field Name="tbPasswordResetPassForm" Hidden="true" />
+      <Field Name="UserIconResetPassForm" Hidden="true" />
+    </Members>
+    <AssociationLine Name="MessageFromEmail" Type="Сourse_WorkEX21.SupportingFiles.MessageFromEmail" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="8.75" />
+        <Point X="7.5" Y="6.812" />
+        <Point X="6.25" Y="6.812" />
+        <Point X="6.25" Y="6.281" />
+        <Point X="6.5" Y="6.281" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABAAICIAImoCABBAiRCAggACGAAAIVAAAQQAAAIIDEA=</HashCode>
+      <FileName>AllForms\RegistAndLogin\ResetPassword.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CheakConfirmEmail" />
+      <Property Name="GeneralVerificationClass" />
+      <Property Name="MessageFromEmail" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Сourse_WorkEX21.AllForms.EditStatusOrder" Collapsed="true">
+    <Position X="1.5" Y="4.5" Width="1.5" />
+    <Members>
+      <Field Name="btClose" Hidden="true" />
+      <Field Name="btEdit" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="guna2BorderlessForm1" Hidden="true" />
+      <Field Name="guna2Panel1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="rbAcept" Hidden="true" />
+      <Field Name="rbDelivered" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAuIAABhwAACAAAACAAACBAoMAEAQAIAABAA=</HashCode>
+      <FileName>AllForms\EditStatusOrder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Database1" />
+      <Property Name="MessageFromEmail1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Сourse_WorkEX21.AllForms.Home" Collapsed="true">
+    <Position X="6.75" Y="4.5" Width="1.5" />
+    <Members>
+      <Field Name="btBuy" Hidden="true" />
+      <Field Name="btDeleteBasket" Hidden="true" />
+      <Field Name="btRefresh" Hidden="true" />
+      <Field Name="clbBasket" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="DataGridMain" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="gbMain" Hidden="true" />
+      <Field Name="guna2GroupBox1" Hidden="true" />
+      <Field Name="guna2GroupBox2" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CAAIAAAAAGIA0IBAAACABAASAAAAgEEgIEAAAAAEAAg=</HashCode>
+      <FileName>AllForms\Home.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Database1" />
+      <Property Name="MessageFromEmail1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Сourse_WorkEX21.AllForms.Orders" Collapsed="true">
+    <Position X="1.5" Y="3.25" Width="1.5" />
+    <Members>
+      <Field Name="btDeleteOrder" Hidden="true" />
+      <Field Name="btEditOrderStatus" Hidden="true" />
+      <Field Name="btUpdateTableOrders" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="DataGridOrdersPanel" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="gbBasket" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="tbIdDeleteOrder" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIABAAABGAAAABAQACCAAACAGAAAAAECAAUAAAAAAE=</HashCode>
+      <FileName>AllForms\Orders.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Database1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Сourse_WorkEX21.AllForms.SetingsForm" Collapsed="true">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <Members>
+      <Field Name="btConfirmCode" Hidden="true" />
+      <Field Name="btImageSelect" Hidden="true" />
+      <Field Name="btSaveImage" Hidden="true" />
+      <Field Name="btSaveLogData" Hidden="true" />
+      <Field Name="btSavePersonalData" Hidden="true" />
+      <Field Name="cbShowPass" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="gbImageSF" Hidden="true" />
+      <Field Name="gbLogDataSF" Hidden="true" />
+      <Field Name="gbPersonalDataSF" Hidden="true" />
+      <Field Name="guna2GroupBox1" Hidden="true" />
+      <Field Name="guna2Panel1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="lbAdresSF" Hidden="true" />
+      <Field Name="lbCodeSF" Hidden="true" />
+      <Field Name="lbEmailSF" Hidden="true" />
+      <Field Name="lbLoginSF" Hidden="true" />
+      <Field Name="lbNameSF" Hidden="true" />
+      <Field Name="lbNumberPhoneSF" Hidden="true" />
+      <Field Name="lbPasswordSF" Hidden="true" />
+      <Field Name="lbSnameSF" Hidden="true" />
+      <Field Name="pbImageProfilSF" Hidden="true" />
+      <Field Name="tbAdresSF" Hidden="true" />
+      <Field Name="tbCodeSF" Hidden="true" />
+      <Field Name="tbEmailSF" Hidden="true" />
+      <Field Name="tbLoginSF" Hidden="true" />
+      <Field Name="tbNameSF" Hidden="true" />
+      <Field Name="tbNumberPhoneSF" Hidden="true" />
+      <Field Name="tbPasswordSF" Hidden="true" />
+      <Field Name="tbSnameSF" Hidden="true" />
+      <Field Name="tbStatusSF" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAmAAAljC2CSAFBACkCCMkAKYAoaoACSAQASEkDAAAA=</HashCode>
+      <FileName>AllForms\SetingsForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Database1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Сourse_WorkEX21.GForm" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <Members>
+      <Field Name="btCloseGForm" Hidden="true" />
+      <Field Name="btMinimizeGForm" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="guna2BorderlessForm1" Hidden="true" />
+      <Field Name="ibOrdersGF" Hidden="true" />
+      <Field Name="ibtExitGForm" Hidden="true" />
+      <Field Name="ibtHomeGForm" Hidden="true" />
+      <Field Name="ibtSettingsGForm" Hidden="true" />
+      <Field Name="idUser" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="lbNameApp" Hidden="true" />
+      <Field Name="pbIconAppGF" Hidden="true" />
+      <Field Name="pnBarGForm" Hidden="true" />
+      <Field Name="pnExitMain" Hidden="true" />
+      <Field Name="pnGForm" Hidden="true" />
+      <Field Name="pnHomeMain" Hidden="true" />
+      <Field Name="pnHomeSmallGF" Hidden="true" />
+      <Field Name="pnOrders" Hidden="true" />
+      <Field Name="pnOrdersSmalGF" Hidden="true" />
+      <Field Name="pnSettingsMain" Hidden="true" />
+      <Field Name="pnSettingsSmallGF" Hidden="true" />
+      <Field Name="pnTopGForm" Hidden="true" />
+    </Members>
+    <AssociationLine Name="PersonalData" Type="Сourse_WorkEX21.SupportingFiles.Methods.PersonalData" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="2.441" />
+        <Point X="8.25" Y="2.816" />
+        <Point X="6.812" Y="2.816" />
+        <Point X="6.812" Y="3.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>EGEAIAJwALQggDgIQBigJgADAAIAAACEAFCBBAYIZAg=</HashCode>
+      <FileName>AllForms\GForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PersonalData" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
