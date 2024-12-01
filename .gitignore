@@ -1,0 +1,67 @@
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]Release/
+[Dd]ebugFinal/
+[Dd]ReleaseFinal/
+[Aa]ssemblyInfo.cs
+*.dll
+*.exe
+*.pdb
+*.idb
+*.log
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Rider
+.idea/
+
+# User-specific files
+.vscode/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# JetBrains Rider
+.idea/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Tye
+.tye/
+
+# VS for Mac
+.vscode/
+.vs
+
+# DLL lib
+!FontAwesome.Sharp.dll
+!MySql.Data.dll
+!Guna.UI2.dll
+
+# Diagrams
+ClassDiagram.bmp
+ClassDiagram.cd
