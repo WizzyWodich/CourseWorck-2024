@@ -14,7 +14,6 @@ ehthumbs.db
 [Dd]Release/
 [Dd]ebugFinal/
 [Dd]ReleaseFinal/
-[Aa]ssemblyInfo.cs
 *.dll
 *.exe
 *.pdb
